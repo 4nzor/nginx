@@ -1,6 +1,6 @@
     server {
         listen 80;
-        server_name bsec-projects.sfedu.ru; # здесь прописать или IP-адрес или доменное имя сервера
+        server_name 92.63.104.100; # здесь прописать или IP-адрес или доменное имя сервера
         access_log  /var/log/nginx/example.log;
      
         location /static/ {
